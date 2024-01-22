@@ -7,3 +7,26 @@
 body{
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+}
+
+.card{
+  width: 33%;
+}
+
+.cardtwo{
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 33%;
+}
+
+.card:hover .cardtwo{
+  display: block;
+}
