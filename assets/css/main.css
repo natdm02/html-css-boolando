@@ -11,7 +11,7 @@ body{
 img{
   width: 100%;
 }
-
+/* -------------------------- */
 header{
   height: 60px;
   width: 100%;
@@ -43,7 +43,7 @@ header{
   display: flex;
   list-style: none;
 }
-/* scelta genere */
+
 .gender a{
   text-decoration: none;
   padding: 0 5px;
@@ -53,7 +53,6 @@ header{
 .gender a:hover{
   color: rgb(230, 133, 7);
 }
-/* fine scelta genere */
 
 .logo{
   width: 30%;
@@ -67,15 +66,6 @@ header{
   justify-content: flex-end;
 }
 
-
-
-
-
-
-
-
-
-
 .container{
   margin: 60px auto;
   max-width: 80%;
@@ -86,6 +76,7 @@ header{
 	align-content: start;
 }
 
+/* card  */
 
 .card{
   position:relative;
@@ -105,7 +96,7 @@ header{
   display: block;
   padding: 0 5px 0 5px;
 }
-/* cuore nella card */
+/* hearts */
 .liked{
   padding: 5px 15px;
   position: absolute;
@@ -114,7 +105,7 @@ header{
   background-color: white;
   font-size: 2rem;
 }
-/* tag rosso e verde nella card */
+/* tag red and green */
 .tag{
   display: flex;
   justify-content: flex-start;
@@ -137,8 +128,8 @@ header{
   padding: 5px 10px;
 }
 
-/* testo sotto la card */
-.marca{
+/* tag red and green */
+.brand{
   font-size: 1.2rem;
   color:#8e8c86 ;
 }

@@ -13,101 +13,149 @@
 
 <body>
 <!-- inizio header  -->
-  <header>
-    <div class="container d-flex ">
-      <nav class="menu d-flex ">
-        <ul class="d-flex">
-          <li><a href="#"></a>Donna</li>
-          <li><a href="#"></a>Uomo</li>
-          <li><a href="#"></a>Bambini</li>
-        </ul>
-      </nav>
-
-      <div class="logo d-flex ">
-        <img src="assets/img/boolean-logo.png" alt="logo">
-      </div>
-
-      <div class="icons">
-        <i class="fa-regular fa-user"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-bag-shopping"></i>
-      </div>
+<header>
+  <div class="menu">
+    <div class="type">
+      <ul class="gender">
+        <li><a href="#">Donna</a></li>
+        <li><a href="#">Uomo</a></li>
+        <li><a href="#">Bambini</a></li>
+      </ul>
     </div>
-  </header>
-  
+    <div class="logo">
+      <img class="logo" src="assets/img/boolean-logo.png" alt="Boolean" title="Boolean">
+    </div>
+    <div class="cta"> 
+      <span><i class="fa-regular fa-user"></i>   
+      <i class="fa-regular fa-heart"></i>
+      <i class="fa-solid fa-bag-shopping"></i>
+      </span>
+    </div>
+  </div>
+</header>
+<!-- fine header  -->
 <!-- main con foto -->
   <main>
-  <div class="container d-flex ">
-    
-    <div class="product">
-      <img class="visible" src="assets/img/1.webp" alt="1">
-      <img src="assets/img/1b.webp" alt="1b">
-        <span class="heart d-flex ">&hearts;</span>
-        <span class="discount d-flex">-50%</span>
-        <span class="eco d-flex">Sostenibilitá</span>
-        <p>Levi's</p>
-        <h3>RELAXED FIT TEE UNISEX</h3>
-        <span class="prezzo">14,99 &euro;</span>
-        <span class="overline">29,99 &euro;</span>
-    </div>
-
-    <div class="product">
-        <img class="visible" src="assets/img/2.webp" alt="2">
-        <img src="assets/img/2b.webp" alt="2b">
-        <span class="heart d-flex ">&hearts;</span>
-        <span class="discount  d-flex">-30%</span>
-        <p>Guess</p>
-        <h3>ROSES TEE</h3>
-        <span class="prezzo">20,99 &euro;</span>
-        <span class="overline">29,99 &euro;</span>
-      </div>  
-      
-      <div class="product">
-        <img class="visible" src="assets/img/3.webp" alt="3">
-        <img src="assets/img/3b.webp" alt="3b">
-        <span class="heart d-flex ">&hearts;</span>
-        <span class="discount d-flex">-30%</span>
-        <p>Come zucchero filato</p>
-        <h3>VOGLIA DI COLORI PASTELLO</h3>
-        <span class="prezzo">129,99 &euro;</span>
-        <spa class="overline">184,99 &euro;</spa>
-      </div>
-        
-        <div class="product">
-          <img class="visible" src="assets/img/4.webp" alt="4">
-          <img src="assets/img/4b.webp" alt="4b">
-          <span class="heart d-flex ">&hearts;</span>
-          <span class="discount d-flex">-50%</span>
-          <span class="eco d-flex">Sostenibilitá</span>
-          <p>Levi's</p>
-          <h3>TEE UNISEX</h3>
-          <span class="prezzo">14,99 &euro;</span>
-          <span class="overline">29,99 &euro;</span>
+    <div class="container d-flex">
+      <div class="card">
+        <div>
+          <img src="assets/img/1.webp" alt="img1">
+          <img src="assets/img/1b.webp" alt="img2" class="hovered">
         </div>
-        
-        <div class="product ">
-          <img class="visible" src="assets/img/5.webp" alt="5">
-          <img src="assets/img/5b.webp" alt="5b">
-          <span class="heart d-flex ">&hearts;</span>
-          <span class="discount d-flex">-50%</span>
-          <span class="eco d-flex">Sostenibilitá</span>
-          <p>Maya Deluxe</p>
-          <h3>STRIPE BODICE</h3>
-          <span class="prezzo">99,99 &euro;</span>
+        <div class="link">
+          <span>&hearts;</span>
         </div>
-        
-        <div class="product">
-          <img class="visible" src="assets/img/6.webp" alt="6">
-          <img src="assets/img/6b.webp" alt="6b">
-          <span class="heart d-flex ">&hearts;</span>
-          <span class="eco-last d-flex">Sostenibilitá</span>
-          <p>Esprit</p>
-          <h3>MAGLIONE - BLACK</h3>
-          <span class="prezzo">29,99 &euro;</span>
+        <div class="tag">
+          <div class="percentage">
+            <span>-50%</span>
+          </div>
+          <div class="sosteinability">
+            <span>Sostenibile</span>
+          </div>
         </div>
-
-      </div>
-    </div>
+        <div class="info">
+          <span class="brand">Levi's</span>
+          <h2 class="decription">RELAXED FIT TEE UNISEX</h2>
+          <span class="actual-price">14,99&euro;</span>
+          <span class="previous-price">29,99&euro;</span>
+        </div>
+        <div class="card">
+          <div class="image">
+            <img src="assets/img/2.webp" alt="img2">
+            <img src="assets/img/2b.webp" alt="img2b" class="hovered">
+          </div>
+          <div class="liked">
+            <span>&hearts;</span>
+          </div>
+          <div class="tag">
+            <div class="percentage">
+              <span>-50%</span>
+            </div>
+          </div>
+          <div class="info">
+            <span class="brand">Guess</span>
+            <h2 class="decription">ROSES TEE</h2>
+            <span class="actual-price">20,99&euro;</span>
+            <span class="previous-price">29,99&euro;</span>
+          </div>
+          <div class="card">
+            <div class="image">
+              <img src="assets/img/3.webp" alt="img3">
+              <img src="assets/img/3b.webp" alt="img3b" class="hovered">
+            </div>
+            <div class="liked">
+              <span>&hearts;</span>
+            </div>
+            <div class="tag">
+              <div class="percentage">
+                <span>-50%</span>
+              </div>
+            </div>
+            <div class="info">
+              <span class="brand">Come Zucchero Filato</span>
+              <h2 class="decription">VOGLIA DI COLORI PASTELLO</h2>
+              <span class="actual-price">129,99&euro;</span>
+              <span class="previous-price">184,99&euro;</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image d-flex">
+              <img src="assets/img/4.webp" alt="img4">
+              <img src="assets/img/4b.webp" alt="img4b" class="hovered">
+            </div>
+            <div class="liked">
+              <span>&hearts;</span>
+            </div>
+            <div class="tag">
+              <div class="percentage">
+                <span>-50%</span>
+              </div>
+              <div class="sosteinability">
+                <span>Sostenibile</span>
+              </div>
+            </div>
+            <div class="info">
+              <span class="brand">Levi's</span>
+              <h2 class="decription">TEE UNISEX</h2>
+              <span class="actual-price">14,99&euro;</span>
+              <span class="previous-price">29,99&euro;</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image d-flex">
+              <img src="assets/img/5.webp" alt="img5">
+              <img src="assets/img/5b.webp" alt="img5b" class="hovered">
+            </div>
+            <div class="liked">
+              <span>&hearts;</span>
+            </div>
+            <div class="info">
+              <span class="brand">Maya Deluxe</span>
+              <h2 class="decription">STRIPE BODICE</h2>
+              <span class="actual-price">99,99&euro;</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="image d-flex">
+              <img src="assets/img/6.webp" alt="img6">
+              <img src="assets/img/6b.webp" alt="img6b" class="hovered">
+            </div>
+            <div class="liked">
+              <span>&hearts;</span>
+            </div>
+            <div class="tag">
+              <div class="sosteinability">
+                <span>Sostenibile</span>
+              </div>
+            </div>
+            <div class="info">
+              <span class="brand">Espirit</span>
+              <h2 class="decription">MAGLIONE-BLACK</h2>
+              <span class="actual-price">29,99&euro;</span>
+            </div>
+          </div>
+        </div>
+  
   </main>
 <!-- fine main  -->
 
