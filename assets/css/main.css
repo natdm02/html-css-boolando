@@ -65,7 +65,7 @@ header{
   display: flex;
   justify-content: flex-end;
 }
-
+/* container  */
 .container{
   margin: 60px auto;
   max-width: 80%;
@@ -97,14 +97,17 @@ header{
   padding: 0 5px 0 5px;
 }
 /* hearts */
-.liked{
+.link{
   padding: 5px 15px;
   position: absolute;
-  top:5px;
+  top:0;
   right: 0;
+  color: black;
   background-color: white;
   font-size: 2rem;
 }
+
+
 /* tag red and green */
 .tag{
   display: flex;
@@ -146,4 +149,30 @@ header{
 .previous-price{
   text-decoration: line-through;
   color: #606760;
+}
+
+/* footer  */
+
+footer{
+  padding-top: 20px;
+  height: 100px;
+  color: white;
+  background-color: black;
+  font-size: 0.8rem;
+  line-height: 1.8rem;
+}
+
+.bottom{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.info span{
+  margin-right: 5px;
+}
+
+.social span{
+  margin-right: 5px;
 }
