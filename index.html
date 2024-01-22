@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>boolando</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css' integrity='sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ==' crossorigin='anonymous'/>
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
@@ -11,102 +12,107 @@
 
 
 <body>
-
+<!-- inizio header  -->
   <header>
-<!-- PRIME IMMAGINI -->
-    <main class="container">
-      <div class="card">
-        <div class="cardone">
-          <img src="assets/img/1.webp" alt="img1">
-        </div>
-        <div class="cardtwo">
-          <img src="assets/img/1b.webp" alt="img1b">
-        </div>
-        <p class="levi">Levi's</p>
-        <h3><strong>RELAXED FIT TEE UNISEX</strong></h3>
-        <div class="price">
-          <span>14.99$</span><span class="margin-price">29.99$</span>
-        </div>
-      </div>
-      
-<!-- SECONDE IMMAGINI  -->
-      <div class="card">
-        <div class="cardone">
-          <img src="assets/img/2.webp" alt="img2">
-        </div>
-        <div class="cardtwo">
-          <img src="assets/img/2b.webp" alt="img2b">
-        </div>
-        <p class="guess">Guess</p>
-        <h3><strong>ROSES TEE</strong></h3>
-        <div class="price">
-          <span>20,99$</span><span class="margin-price">29,99$</span>
-        </div>
+    <div class="container d-flex ">
+      <nav class="menu d-flex ">
+        <ul class="d-flex">
+          <li><a href="#"></a>Donna</li>
+          <li><a href="#"></a>Uomo</li>
+          <li><a href="#"></a>Bambini</li>
+        </ul>
+      </nav>
+
+      <div class="logo d-flex ">
+        <img src="assets/img/boolean-logo.png" alt="logo">
       </div>
 
-<!-- TERZE IMMAGINI  -->
-      <div class="card">
-        <div class="cardone">
-          <img src="assets/img/3.webp" alt="img3">
-        </div>
-        <div class="cardtwo">
-          <img src="assets/img/3b.webp" alt="img3b">
-        </div>
-        <p class="zucchero">come zucchero filato</p>
-        <h3><strong>VOGLIA DI COLORI PASTELLO</strong></h3>
-        <div class="price">
-          <span>129,99$</span><span class="margin-price">184,99$</span>
-        </div>
+      <div class="icons">
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
       </div>
-      <br>
-
-<!-- QUARTE IMMAGINI  -->
-      <div class="card">
-        <div class="cardone">
-          <img src="assets/img/4.webp" alt="img4">
-        </div>
-        <div class="cardtwo">
-          <img src="assets/img/4b.webp" alt="img4b">
-        </div>
-        <p class="tee">levi's</p>
-        <h3><strong>TEE UNISEX</strong></h3>
-        <div class="price">
-          <span>14,99$</span><span class="margin-price">29,99$</span>
-        </div>
-      </div>
-
-<!-- QUINTE IMMAGINI  -->
-      <div class="card">
-        <div class="cardone">
-          <img src="assets/img/5.webp" alt="img5">
-        </div>
-        <div class="cardtwo">
-          <img src="assets/img/5b.webp" alt="img5b">
-        </div>
-        <p class="MAYA">maya deluxe</p>
-        <h3><strong>STRIPE BODICE</strong></h3>
-        <div class="price">
-          <span>99,99$</span>
-      </div>
-<!-- SESTE IMMAGINI  -->
-      <div class="card">
-        <div class="cardone">
-          <img src="assets/img/6.webp" alt="img6">
-        </div>
-        <div class="cardtwo">
-          <img src="assets/img/6b.webp" alt="img6b">
-        </div>
-        <p class="esprit">esprit</p>
-        <h3><strong>MAGLIONE-BLACK</strong></h3>
-        <div class="price">
-          <span>29.99$</span>
-        </div>
-      </div>
-
-
-
-    </main>
+    </div>
   </header>
   
+<!-- main con foto -->
+  <main>
+  <div class="container d-flex ">
+    
+    <div class="product">
+      <img class="visible" src="assets/img/1.webp" alt="1">
+      <img src="assets/img/1b.webp" alt="1b">
+        <span class="heart d-flex ">&hearts;</span>
+        <span class="discount d-flex">-50%</span>
+        <span class="eco d-flex">Sostenibilitá</span>
+        <p>Levi's</p>
+        <h3>RELAXED FIT TEE UNISEX</h3>
+        <span class="prezzo">14,99 &euro;</span>
+        <span class="overline">29,99 &euro;</span>
+    </div>
+
+    <div class="product">
+        <img class="visible" src="assets/img/2.webp" alt="2">
+        <img src="assets/img/2b.webp" alt="2b">
+        <span class="heart d-flex ">&hearts;</span>
+        <span class="discount  d-flex">-30%</span>
+        <p>Guess</p>
+        <h3>ROSES TEE</h3>
+        <span class="prezzo">20,99 &euro;</span>
+        <span class="overline">29,99 &euro;</span>
+      </div>  
+      
+      <div class="product">
+        <img class="visible" src="assets/img/3.webp" alt="3">
+        <img src="assets/img/3b.webp" alt="3b">
+        <span class="heart d-flex ">&hearts;</span>
+        <span class="discount d-flex">-30%</span>
+        <p>Come zucchero filato</p>
+        <h3>VOGLIA DI COLORI PASTELLO</h3>
+        <span class="prezzo">129,99 &euro;</span>
+        <spa class="overline">184,99 &euro;</spa>
+      </div>
+        
+        <div class="product">
+          <img class="visible" src="assets/img/4.webp" alt="4">
+          <img src="assets/img/4b.webp" alt="4b">
+          <span class="heart d-flex ">&hearts;</span>
+          <span class="discount d-flex">-50%</span>
+          <span class="eco d-flex">Sostenibilitá</span>
+          <p>Levi's</p>
+          <h3>TEE UNISEX</h3>
+          <span class="prezzo">14,99 &euro;</span>
+          <span class="overline">29,99 &euro;</span>
+        </div>
+        
+        <div class="product ">
+          <img class="visible" src="assets/img/5.webp" alt="5">
+          <img src="assets/img/5b.webp" alt="5b">
+          <span class="heart d-flex ">&hearts;</span>
+          <span class="discount d-flex">-50%</span>
+          <span class="eco d-flex">Sostenibilitá</span>
+          <p>Maya Deluxe</p>
+          <h3>STRIPE BODICE</h3>
+          <span class="prezzo">99,99 &euro;</span>
+        </div>
+        
+        <div class="product">
+          <img class="visible" src="assets/img/6.webp" alt="6">
+          <img src="assets/img/6b.webp" alt="6b">
+          <span class="heart d-flex ">&hearts;</span>
+          <span class="eco-last d-flex">Sostenibilitá</span>
+          <p>Esprit</p>
+          <h3>MAGLIONE - BLACK</h3>
+          <span class="prezzo">29,99 &euro;</span>
+        </div>
+
+      </div>
+    </div>
+  </main>
+<!-- fine main  -->
+
+
+
+  <footer></footer>
 </body>
 </html>
